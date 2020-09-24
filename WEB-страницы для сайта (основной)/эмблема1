@@ -1,0 +1,1825 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+		
+
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="robots" content="index, follow" />
+<link href="/bitrix/js/main/core/css/core.min.css?14974204462854" type="text/css" rel="stylesheet" />
+
+
+
+<link href="/bitrix/js/ui/fonts/opensans/ui.font.opensans.min.css?15720552281861" type="text/css"  rel="stylesheet" />
+<link href="/bitrix/js/main/popup/dist/main.popup.bundle.min.css?158128427423381" type="text/css"  rel="stylesheet" />
+<link href="/bitrix/panel/main/popup.min.css?149742045020704" type="text/css"  rel="stylesheet" />
+<link href="/bitrix/cache/css/s1/simai.school/template_854a64eba1a7e499d191d43b65ddb293/template_854a64eba1a7e499d191d43b65ddb293_v1.css?1582249484364118" type="text/css"  data-template-style="true" rel="stylesheet" />
+<script type="text/javascript">if(!window.BX)window.BX={};if(!window.BX.message)window.BX.message=function(mess){if(typeof mess=='object') for(var i in mess) BX.message[i]=mess[i]; return true;};</script>
+<script type="text/javascript">(window.BX||top.BX).message({'JS_CORE_LOADING':'Загрузка...','JS_CORE_NO_DATA':'- Нет данных -','JS_CORE_WINDOW_CLOSE':'Закрыть','JS_CORE_WINDOW_EXPAND':'Развернуть','JS_CORE_WINDOW_NARROW':'Свернуть в окно','JS_CORE_WINDOW_SAVE':'Сохранить','JS_CORE_WINDOW_CANCEL':'Отменить','JS_CORE_WINDOW_CONTINUE':'Продолжить','JS_CORE_H':'ч','JS_CORE_M':'м','JS_CORE_S':'с','JSADM_AI_HIDE_EXTRA':'Скрыть лишние','JSADM_AI_ALL_NOTIF':'Показать все','JSADM_AUTH_REQ':'Требуется авторизация!','JS_CORE_WINDOW_AUTH':'Войти','JS_CORE_IMAGE_FULL':'Полный размер'});</script>
+
+<script type="text/javascript" src="/bitrix/js/main/core/core.min.js?1581284274247888"></script>
+
+<script>BX.setJSList(['/bitrix/js/main/core/core_ajax.js','/bitrix/js/main/core/core_promise.js','/bitrix/js/main/polyfill/promise/js/promise.js','/bitrix/js/main/loadext/loadext.js','/bitrix/js/main/loadext/extension.js','/bitrix/js/main/polyfill/promise/js/promise.js','/bitrix/js/main/polyfill/find/js/find.js','/bitrix/js/main/polyfill/includes/js/includes.js','/bitrix/js/main/polyfill/matches/js/matches.js','/bitrix/js/ui/polyfill/closest/js/closest.js','/bitrix/js/main/polyfill/fill/main.polyfill.fill.js','/bitrix/js/main/polyfill/find/js/find.js','/bitrix/js/main/polyfill/matches/js/matches.js','/bitrix/js/main/polyfill/core/dist/polyfill.bundle.js','/bitrix/js/main/polyfill/core/dist/polyfill.bundle.js','/bitrix/js/main/lazyload/dist/lazyload.bundle.js','/bitrix/js/main/polyfill/core/dist/polyfill.bundle.js','/bitrix/js/main/parambag/dist/parambag.bundle.js']);
+BX.setCSSList(['/bitrix/js/main/lazyload/dist/lazyload.bundle.css','/bitrix/js/main/parambag/dist/parambag.bundle.css']);</script>
+<script type="text/javascript">(window.BX||top.BX).message({'LANGUAGE_ID':'ru','FORMAT_DATE':'DD.MM.YYYY','FORMAT_DATETIME':'DD.MM.YYYY HH:MI:SS','COOKIE_PREFIX':'BITRIX_SM','SERVER_TZ_OFFSET':'36000','SITE_ID':'s1','SITE_DIR':'/','USER_ID':'','SERVER_TIME':'1589276041','USER_TZ_OFFSET':'0','USER_TZ_AUTO':'Y','bitrix_sessid':'226eec42f57ae15b4e771c934f024429'});</script>
+
+
+<script type="text/javascript"  src="/bitrix/cache/js/s1/simai.school/kernel_main/kernel_main_v1.js?1582249674151081"></script>
+<script type="text/javascript" src="/bitrix/js/main/popup/dist/main.popup.bundle.min.js?158128427457817"></script>
+<script type="text/javascript">BX.setJSList(['/bitrix/js/main/core/core_window.js','/bitrix/js/main/session.js','/bitrix/js/main/date/main.date.js','/bitrix/js/main/core/core_date.js','/bitrix/js/main/utils.js','/bitrix/js/main/core/core_fx.js','/bitrix/templates/simai.school/framework/include/01_main/01_jquery/1jquery.js','/bitrix/templates/simai.school/framework/include/01_main/01_jquery/html5shiv.js','/bitrix/templates/simai.school/framework/include/01_main/01_jquery/jquery-ui.min.js','/bitrix/templates/simai.school/framework/include/01_main/01_jquery/jquery.easing.js','/bitrix/templates/simai.school/framework/include/01_main/01_jquery/jquery.hoverup.js','/bitrix/templates/simai.school/framework/include/01_main/01_jquery/jquery.metadata.js','/bitrix/templates/simai.school/framework/include/01_main/01_jquery/jquery.stellar.js','/bitrix/templates/simai.school/framework/include/01_main/01_jquery/respond.min.js','/bitrix/templates/simai.school/framework/include/01_main/01_jquery/wp.app.js','/bitrix/templates/simai.school/framework/include/01_main/02 bootstrap/bootstrap.min.js','/bitrix/templates/simai.school/framework/include/02_assets/bootstrap-mobile-menu/wp.app.js','/bitrix/templates/simai.school/framework/include/02_assets/fancybox/jquery.fancybox.pack.js','/bitrix/templates/simai.school/framework/include/02_assets/hover-dropdown/bootstrap-hover-dropdown.min.js','/bitrix/templates/simai.school/framework/include/02_assets/layerslider/js/greensock.js','/bitrix/templates/simai.school/framework/include/02_assets/layerslider/js/layerslider.kreaturamedia.jquery.js','/bitrix/templates/simai.school/framework/include/02_assets/layerslider/js/layerslider.transitions.js','/bitrix/templates/simai.school/framework/include/02_assets/milestone-counter/jquery.countTo.js','/bitrix/templates/simai.school/framework/include/02_assets/mixitup/jquery.mixitup.init.js','/bitrix/templates/simai.school/framework/include/02_assets/mixitup/jquery.mixitup.js','/bitrix/templates/simai.school/framework/include/02_assets/page-scroller/jquery.ui.totop.min.js','/bitrix/templates/simai.school/framework/include/02_assets/responsive-mobile-nav/js/jquery.dlmenu.autofill.js','/bitrix/templates/simai.school/framework/include/02_assets/responsive-mobile-nav/js/jquery.dlmenu.js','/bitrix/templates/simai.school/framework/include/02_assets/waypoints/waypoints.min.js']); </script>
+<script type="text/javascript">BX.setCSSList(['/bitrix/components/simai/template.special/templates/simai.school/style.css','/bitrix/templates/simai.school/template_styles.css','/bitrix/templates/simai.school/framework/include/01_main/02 bootstrap/bootstrap.min.css','/bitrix/templates/simai.school/framework/include/02_assets/fancybox/jquery.fancybox.css','/bitrix/templates/simai.school/framework/include/02_assets/layerslider/css/layerslider.css','/bitrix/templates/simai.school/framework/include/03_icons/font-awesome/css/font-awesome.min.css','/bitrix/templates/simai.school/framework/include/04_template/bg.css','/bitrix/templates/simai.school/framework/include/04_template/boomerang.css','/bitrix/templates/simai.school/framework/include/04_template/helpers.css','/bitrix/templates/simai.school/framework/include/04_template/visual.css']); </script>
+<script type="text/javascript">
+					(function () {
+						"use strict";
+
+						var counter = function ()
+						{
+							var cookie = (function (name) {
+								var parts = ("; " + document.cookie).split("; " + name + "=");
+								if (parts.length == 2) {
+									try {return JSON.parse(decodeURIComponent(parts.pop().split(";").shift()));}
+									catch (e) {}
+								}
+							})("BITRIX_CONVERSION_CONTEXT_s1");
+
+							if (cookie && cookie.EXPIRE >= BX.message("SERVER_TIME"))
+								return;
+
+							var request = new XMLHttpRequest();
+							request.open("POST", "/bitrix/tools/conversion/ajax_counter.php", true);
+							request.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+							request.send(
+								"SITE_ID="+encodeURIComponent("s1")+
+								"&sessid="+encodeURIComponent(BX.bitrix_sessid())+
+								"&HTTP_REFERER="+encodeURIComponent(document.referrer)
+							);
+						};
+
+						if (window.frameRequestStart === true)
+							BX.addCustomEvent("onFrameDataReceived", counter);
+						else
+							BX.ready(counter);
+					})();
+				</script>
+<!--[if lt IE 9]><link href="/bitrix/templates/simai.school/framework/include/02_assets/sky-forms/sky-forms-ie8.css"<![endif]-->
+<link href="/bitrix/templates/simai.school/framework/color/color.css" type="text/css" data-template-style="true" rel="stylesheet" id="WpStyle">
+
+
+
+<script type="text/javascript"  src="/bitrix/cache/js/s1/simai.school/template_8eaec35003b9f42313162be35f250442/template_8eaec35003b9f42313162be35f250442_v1.js?1582249485648557"></script>
+<script type="text/javascript">var _ba = _ba || []; _ba.push(["aid", "d8f960f91bf1d9bf83c3506fec7350de"]); _ba.push(["host", "www.lit.khv.ru"]); (function() {var ba = document.createElement("script"); ba.type = "text/javascript"; ba.async = true;ba.src = (document.location.protocol == "https:" ? "https://" : "http://") + "bitrix.info/ba.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ba, s);})();</script>
+
+
+    	<title>Главная</title>
+	<link rel="icon" href="/favicon.ico" type="image/ico">
+</head>
+
+<body 
+	class="body-bg-15" 
+	 
+	style="background-color:#fff7e1;"	>
+
+<div class="body-wrap body-boxed">
+
+
+<script type="text/javascript">
+	$(function() {
+		$(".image-on").on("click",function(){
+			  $(".image-on").hide();
+			  $(".image-off").show();
+			  $.ajax(
+									{type: "POST",
+									url: "/bitrix/components/simai/template.special/templates/simai.school/ajax.php",
+									data: "type=MAIN&param=IMAGE&value=special-image-on",
+});
+			  
+		});
+		$(".image-off").on("click",function(){
+			  $(".image-off").hide();
+			  $(".image-on").show();
+			   $.ajax(
+									{type: "POST",
+									url: "/bitrix/components/simai/template.special/templates/simai.school/ajax.php",
+									data: "type=MAIN&param=IMAGE&value=special-image-off",
+});
+		});			
+		$(".return-normal").on("click",function(){
+			  $(".return-normal").hide();
+			  $(".return-eye").show();
+			   $.ajax(
+									{type: "POST",
+									url: "/bitrix/components/simai/template.special/templates/simai.school/ajax.php",
+									data: "type=MAIN&param=SPECIAL&value=off",
+});
+		});	
+		$(".return-eye").on("click",function(){
+			  $(".return-eye").hide();
+			  $(".return-normal").show();
+			  
+			  $.ajax(
+									{type: "POST",
+									url: "/bitrix/components/simai/template.special/templates/simai.school/ajax.php",
+									data: "type=MAIN&param=SPECIAL&value=on",
+});
+		});
+		
+		
+	$("[data-aa-on]").on("click",function(){	  
+		$.ajax(
+									{type: "POST",
+									url: "/bitrix/components/simai/template.special/templates/simai.school/ajax.php",
+									data: "type=MAIN&param=SPECIAL&value=on",});
+									
+		var specdefault="special-aaVersion-on special-color-white special-font-small special-image-on special-fonttype-default";
+        $('body').addClass(specdefault);
+        $("#WpStyle").attr("href", "/bitrix/templates/simai.school/framework/color/white.css");
+		$.ajax(
+									{type: "POST",
+									url: "/bitrix/components/simai/template.special/templates/simai.school/ajax.php",
+									data: "type=MAIN&param=special-color&value=white",
+});
+
+      	$.ajax(
+									{type: "POST",
+									url: "/bitrix/components/simai/template.special/templates/simai.school/ajax.php",
+									data: "type=MAIN&param=special-font&value=small",
+});
+
+       	$.ajax(
+									{type: "POST",
+									url: "/bitrix/components/simai/template.special/templates/simai.school/ajax.php",
+									data: "type=MAIN&param=special-image&value=on",
+});
+		return false;
+    });
+
+	$("[data-aa-off]").on("click",function(){	  
+			  $.ajax(
+									{type: "POST",
+									url: "/bitrix/components/simai/template.special/templates/simai.school/ajax.php",
+									data: "type=MAIN&param=SPECIAL&value=off",
+});
+
+    	var htmlCurrentClass = $('body').prop('class'),
+		clearSpecialClasses = htmlCurrentClass.replace(/special-([a-z,A-Z,-]+)/g, '');
+		$('body').prop('class', clearSpecialClasses);
+		$("#WpStyle").attr("href", "/bitrix/templates/simai.school/framework/color/color.css");
+		$(".image-on").hide();
+		$(".image-off").show();
+	    return false;
+		});	
+		
+		
+		
+		$(".special-settings a").on("click",function(){	
+		     data=$(this).data();
+			 console.log(data);
+             $html = $('body');
+			 htmlCurrentClass = $html.prop('class');
+             for (var key in data) {
+				var reg = new RegExp("special-"+key+"-[^ ]{1,}", "g");
+				htmlCurrentClass=htmlCurrentClass.replace(reg, "special-"+key+"-"+data[key]);
+							  $.ajax(
+									{type: "POST",
+									url: "/bitrix/components/simai/template.special/templates/simai.school/ajax.php",
+									data: "type=MAIN&param=special-"+key+"&value="+data[key],});
+				if(key=="color")
+				{
+					if(data[key]=="white")  $("#WpStyle").attr("href", "/bitrix/templates/simai.school/framework/color/white.css");
+				    if(data[key]=="black")$("#WpStyle").attr("href", "/bitrix/templates/simai.school/framework/color/black.css");
+				    if(data[key]=="yellow")$("#WpStyle").attr("href", "/bitrix/templates/simai.school/framework/color/yellow.css");
+				    if(data[key]=="blue")$("#WpStyle").attr("href", "/bitrix/templates/simai.school/framework/color/blue.css");
+				}
+			}
+        
+        $html.prop('class',htmlCurrentClass);
+	    return false;
+		});	
+		
+	});	
+</script>
+<div class="special-settings bg-lgrey">
+<div class="row pt-10 pb-5 f-18" style="letter-spacing:normal !important;">
+		<div class="col-md-2 lh-40 text-center">
+			<div><span style="font-size: 16px !important;">Цветовая схема: </span></div>
+			<div>
+			  <a href="#" style="font-size: 16px !important;" class="theme white" data-color="white">C</a>
+			  <a href="#" style="font-size: 16px !important;" class="theme black" data-color="black">C</a>
+			  <a href="#" style="font-size: 16px !important;" class="theme yellow" data-color="yellow">C</a>	
+			  <a href="#" style="font-size: 16px !important;" class="theme blue" data-color="blue">C</a>
+			</div>
+		</div>
+	    <div class="col-md-2 lh-40 text-center">
+		   <div>
+			 <span style="font-size: 16px !important;">Шрифт</span>
+		   </div>
+		   <div>
+		     <a href="#" data-fonttype="arial" class="theme white" style="font-size: 12px;">Arial</a>
+		     <a href="#" data-fonttype="times" class="theme white" style="font-size: 12px;">Times New Roman</a>
+		   </div>
+		</div>		
+		<div class="col-md-2 lh-40 text-center">
+			    <div>
+				  <span style="font-size: 16px !important;">Размер шрифта</span>
+				</div>
+			   <div>
+				<a href="#" data-font="small" style="font-size: 20px !important;" title="Нормальный размер шрифта">A</a>
+				<a href="#" data-font="medium" style="font-size: 24px !important;"  title="Увеличенный размер шрифта">A</a>
+				<a href="#" data-font="big" style="font-size: 28px !important;"  title="Большой размер шрифта">A</a>		
+              </div>				
+		</div>
+		<div class="col-md-2 lh-40 text-center">
+		   <div>
+			 <span style="font-size: 16px !important;">Кернинг</span>
+		   </div>
+		   <div>
+		     <a href="#" data-kerning="small" style="font-size: 20px;">1</a>
+		     <a href="#" data-kerning="normal" style="font-size: 20px;">2</a>
+			 <a href="#" data-kerning="big" style="font-size: 20px;">3</a>
+		   </div>
+		</div>
+	
+		<div class="col-md-2 lh-40 text-center">
+		  <div>
+			 <span style="font-size: 16px !important;">  Изображения: </span>
+		  </div>
+		  <div>
+			  <a class="image-on a-current" data-image="on" href="#"  style="display: none;"> <i class="fa fa-toggle-off f-24"></i></a>
+			  <a class="image-off" data-image="off" href="#"  ><i class="fa fa-toggle-on f-24"></i></a>
+		  </div>
+		</div>	
+		<div class="col-md-2 text-left">
+			  <a href="/?set-aa=normal" data-aa-off class="btn btn-base return-normal f-18 mt-35">Обычная версия</a>
+		</div>	
+ </div>	
+</div>	
+<header>
+    <div class="top-header-top " style="background-color:#f58f51;">
+        <div class="top-header-fixed"></div>
+        <div class="container pt-10">
+            <div class="row">
+                <div class="top-info col-md-6 navbar-header">
+					<div class="display-row">
+						<div class="middle hidden-xs" style="display: table-cell;">
+							<span class="navbar-brand relative">
+							  <a href="/">
+                                  <img src="/images/logo/logo3.gif" class=" mr-20" alt="SITE_NAME" />
+                              </a>
+							</span>
+						</div>
+                        <div class="title c-white display-cell middle">
+							<span style="display:table-cell; vertical-align: middle; font-size:16px;">Муниципальное автономное общеобразовательное учреждение города Хабаровска "Лицей инновационных технологий"</span>						
+						</div>
+					</div>
+                </div>
+                <div class="top-info col-md-6 ">
+                    <div class="row">
+                        <div class="col-md-8 col-sm-8 col-xs-12 contacts-top">
+                            <ul>
+								<li><i class="fa fa-map-marker"></i> 680000 , г. Хабаровск, ул.Гоголя, д.24</li>
+								<li><i class="fa fa-phone"></i> +7 (4212) 45-00-71</li>
+								<li><i class="fa fa-envelope"></i> litkhv@mail.ru</li>
+							</ul>
+                        </div>
+                        <div class="top-info col-md-4 col-sm-4 col-xs-12">
+                            <span class="menu-mobile right">
+                                <a href="#" class="navbar-toggle btn btn-b-white" data-toggle="collapse" data-target=".navbar-collapse">
+                                    <i class="fa fa-bars"></i>
+                                </a>
+                            </span>
+                            <nav class="right top-header-menu">
+                                <ul class="menu">
+                                    
+    
+    <li id="cache_auth_container" class="aux-languages dropdown animate-hover" data-animate="animated fadeInUp">
+        <a href="/auth/" class="btn btn-b-white">Войти</a>
+        <!--'start_frame_cache_cache_auth_container'-->        <ul class="sub-menu animate-wr">
+            <li>
+                <div class="pop-auth-form">
+                    <form method="post" target="_top" role="form" action="/?login=yes">
+                                                    <input type='hidden' name='backurl' value='/' />
+                                                                        <input type="hidden" name="AUTH_FORM" value="Y" />
+                        <input type="hidden" name="TYPE" value="AUTH" />
+                        <div class="form-group">
+                            <label class="sr-only" for="auth-user-login">Логин</label>
+                            <input type="text" name="USER_LOGIN" id="auth-user-login" value="" class="form-control" placeholder="Логин">
+                        </div>
+                        <div class="form-group">
+                            <label class="sr-only" for="auth-user-login">Пароль</label>
+                            <input type="password" name="USER_PASSWORD" class="form-control" placeholder="Пароль">
+                        </div>
+                                                    <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" id="USER_REMEMBER" name="USER_REMEMBER" value="Y" checked="checked" />Запомнить меня                                </label>
+                            </div>
+                                                                        <button type="submit" class="btn btn btn-two">Войти</button>
+                    </form>
+                </div>
+            </li>
+            <li><a href="/auth/?forgot_password=yes&amp;backurl=%2F">Забыли пароль?</a></li>
+                            <li><a href="/auth/?register=yes&amp;backurl=%2F">Регистрация</a></li>
+                        <li>
+                            </li>
+        </ul>
+        <!--'end_frame_cache_cache_auth_container'-->    </li>
+
+                                </ul>
+                            </nav>
+                            <span   data-aa-on="" class="right switch-vision return-eye">
+								<a class="btn btn-b-white" style="padding: 10px 15px;" title="Версия для слабовидящих" href="/?set-aa=special">
+									<i class="fa fa-eye-slash" ></i>
+								</a>
+							</span>
+                            <span style="display: none;" class="right return-normal" data-aa-off>
+								<a class="btn btn-b-white" style="padding: 10px 15px;" title="Обычная версия" href="/?set-aa=normal" >
+									<i class="fa fa-eye"></i>
+								</a>
+							</span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <form action="/search/index.php" class="form-horizontal form-light" role="form">
+    <div class="input-group">
+                    <input type="text" name="q" value="" class="form-control" placeholder="Введите запрос..."/>
+                <span class="input-group-btn">
+              <button class="btn btn-base" type="submit"><i class="fa fa-search"></i></button>
+        </span>
+    </div>
+</form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="navbar navbar-wp navbar-arrow mega-nav" role="navigation">
+        <div class="container">
+            <div class="navbar-collapse collapse top-menu" aria-expanded="true">
+                <ul class="nav navbar-nav navbar-left">
+
+	
+	
+					<li class="active "><a href="/">Главная</a></li>
+		
+	
+	
+
+	
+	
+					<li class="dropdown">
+				<a href="/about/" class="dropdown-toggle hidden-xs"  data-hover="dropdown" data-close-others="true">О лицее</a>
+				<a href="/about/" class="dropdown-toggle visible-xs" data-toggle="dropdown"  data-hover="dropdown" data-close-others="true">О лицее</a>
+				<ul class="dropdown-menu">
+		
+	
+	
+
+	
+	
+					<li><a href="/about/privetstvie-direktora.php">Приветствие директора</a></li>
+		
+	
+	
+
+	
+	
+					<li><a href="/about/">Основные сведения об образовательной организации</a></li>
+		
+	
+	
+
+	
+	
+					<li><a href="/about/structure/">Структура и органы управления образовательной организацией</a></li>
+		
+	
+	
+
+	
+	
+					<li><a href="/about/docs/">Документы</a></li>
+		
+	
+	
+
+	
+	
+					<li><a href="/about/education/">Образование</a></li>
+		
+	
+	
+
+	
+	
+					<li><a href="/about/obrazovatelnye-standarty.php">Образовательные стандарты</a></li>
+		
+	
+	
+
+	
+	
+					<li><a href="/about/teachers/">Руководство. Педагогический состав</a></li>
+		
+	
+	
+
+	
+	
+					<li><a href="/about/logistical-support/">Материально-техническое обеспечение</a></li>
+		
+	
+	
+
+	
+	
+					<li><a href="/about/antikorruptsionnaya-politika-litseya">Антикоррупционная политика лицея</a></li>
+		
+	
+	
+
+	
+	
+					<li><a href="/about/material-support.php">Стипендии и иные виды материальной поддержки</a></li>
+		
+	
+	
+
+	
+	
+					<li><a href="/about/service/">Платные образовательные услуги</a></li>
+		
+	
+	
+
+	
+	
+					<li><a href="/about/financial/">Финансово-хозяйственная деятельность</a></li>
+		
+	
+	
+
+	
+	
+					<li><a href="/about/innovatsionnaya-deyatelnost.php">Инновационная деятельность</a></li>
+		
+	
+	
+
+	
+	
+					<li><a href="/about/career/">Вакантные места для приема и перевода</a></li>
+		
+	
+	
+
+	
+	
+					<li><a href="/about/requisites.php">Реквизиты</a></li>
+		
+	
+	
+
+	
+	
+					<li><a href="/about/licenses.php">Лицензии</a></li>
+		
+	
+	
+
+	
+	
+					<li><a href="/about/vakansii/">Вакансии</a></li>
+		
+	
+	
+
+	
+	
+					<li><a href="/about/obrabotka-personalnykh-dannykh.php">Работа с персональными данными</a></li>
+		
+	
+	
+
+	
+	
+					<li><a href="/about/law-map.php">Законодательная карта</a></li>
+		
+	
+	
+
+	
+	
+					<li><a href="/about/elektronnyy-pasport-dostupnosti.php">Электронный паспорт доступности</a></li>
+		
+	
+	
+
+	
+	
+					<li><a href="/information-security/">Информационная безопасность</a></li>
+		
+	
+	
+
+			</ul></li>	
+	
+					<li class="dropdown">
+				<a href="/school-life/" class="dropdown-toggle hidden-xs"  data-hover="dropdown" data-close-others="true">Лицейская жизнь</a>
+				<a href="/school-life/" class="dropdown-toggle visible-xs" data-toggle="dropdown"  data-hover="dropdown" data-close-others="true">Лицейская жизнь</a>
+				<ul class="dropdown-menu">
+		
+	
+	
+
+	
+	
+					<li><a href="/school-life/news/">Новости</a></li>
+		
+	
+	
+
+	
+	
+					<li><a href="/school-life/announcing/">Объявления</a></li>
+		
+	
+	
+
+	
+	
+					<li><a href="/schedule">Расписание уроков</a></li>
+		
+	
+	
+
+	
+	
+					<li><a href="/school-life/reyting-klassov-lita.php">Рейтинг классов ЛИТа</a></li>
+		
+	
+	
+
+	
+	
+					<li><a href="/school-life/history.php">История лицея</a></li>
+		
+	
+	
+
+	
+	
+					<li><a href="/school-life/dostizheniya">Достижения ЛИТа</a></li>
+		
+	
+	
+
+	
+	
+					<li><a href="/school-life/pressa-o-lite/">Пресса о ЛИТе</a></li>
+		
+	
+	
+
+	
+	
+					<li><a href="/school-life/biblioteka-lita/">Информационно-библиотечный центр</a></li>
+		
+	
+	
+
+	
+	
+					<li><a href="/school-life/bezopasnost-zhiznideyatelnosti/">Безопасность</a></li>
+		
+	
+	
+
+	
+	
+					<li><a href="/school-life/go-i-chs/">ГО и ЧС</a></li>
+		
+	
+	
+
+	
+	
+					<li><a href="/school-life/fizkultura-i-sport/">Физкультура и спорт</a></li>
+		
+	
+	
+
+	
+	
+					<li><a href="/school-life/gto/">ГТО</a></li>
+		
+	
+	
+
+	
+	
+					<li><a href="/school-life/gallery/">Фотогалерея</a></li>
+		
+	
+	
+
+	
+	
+					<li><a href="/school-life/greetings/">Поздравления и Благодарности</a></li>
+		
+	
+	
+
+	
+	
+					<li><a href="/school-life/faq/">Вопрос-ответ</a></li>
+		
+	
+	
+
+	
+	
+					<li><a href="/school-life/reviews/">Отзывы</a></li>
+		
+	
+	
+
+			</ul></li>	
+	
+					<li class="dropdown">
+				<a href="/parents/news/" class="dropdown-toggle hidden-xs"  data-hover="dropdown" data-close-others="true">Родителям</a>
+				<a href="/parents/news/" class="dropdown-toggle visible-xs" data-toggle="dropdown"  data-hover="dropdown" data-close-others="true">Родителям</a>
+				<ul class="dropdown-menu">
+		
+	
+	
+
+	
+	
+					<li><a href="/parents/groups/">Классы</a></li>
+		
+	
+	
+
+	
+	
+					<li><a href="/schedule/index.php">Расписание уроков</a></li>
+		
+	
+	
+
+	
+	
+					<li><a href="/parents/services/">Дополнительные платные услуги</a></li>
+		
+	
+	
+
+	
+	
+					<li><a href="/parents/announcing/">Объявления</a></li>
+		
+	
+	
+
+	
+	
+					<li><a href="/parents/news/">Новости</a></li>
+		
+	
+	
+
+	
+	
+					<li><a href="/parents/stati/">Статьи</a></li>
+		
+	
+	
+
+	
+	
+					<li><a href="/parents/shkolnoe-pitanie/">Питание</a></li>
+		
+	
+	
+
+	
+	
+					<li><a href="/parents/uslugi-v-elektronnom-vide/">Услуги в электронном виде</a></li>
+		
+	
+	
+
+			</ul></li>	
+	
+					<li class="dropdown">
+				<a href="/pupils/" class="dropdown-toggle hidden-xs"  data-hover="dropdown" data-close-others="true">Ученикам</a>
+				<a href="/pupils/" class="dropdown-toggle visible-xs" data-toggle="dropdown"  data-hover="dropdown" data-close-others="true">Ученикам</a>
+				<ul class="dropdown-menu">
+		
+	
+	
+
+	
+	
+					<li><a href="/pupils/news/">Новости</a></li>
+		
+	
+	
+
+	
+	
+					<li><a href="/pupils/announcing/">Объявления</a></li>
+		
+	
+	
+
+	
+	
+					<li><a href="/pupils/schedule/">Расписание уроков</a></li>
+		
+	
+	
+
+	
+	
+					<li><a href="/pupils/vneurochnaya-deyatelnost.php">Внеурочная деятельность</a></li>
+		
+	
+	
+
+	
+	
+					<li><a href="/pupils/pravila-vnutrennego-rasporyadka.php">Правила внутреннего распорядка</a></li>
+		
+	
+	
+
+	
+	
+					<li><a href="/pupils/gia/">Итоговая аттестация - ЕГЭ и ОГЭ </a></li>
+		
+	
+	
+
+	
+	
+					<li><a href="/pupils/proforientatsiya/">Профориентация</a></li>
+		
+	
+	
+
+	
+	
+					<li><a href="/pupils/vosh/">Всероссийская олимпиада школьников</a></li>
+		
+	
+	
+
+	
+	
+					<li><a href="/pupils/olimpiady/">Олимпиады и конкурсы</a></li>
+		
+	
+	
+
+	
+	
+					<li><a href="/pupils/about/logistical-support/elektronnye-obrazovatelnye-resursy.php">Полезные ссылки</a></li>
+		
+	
+	
+
+	
+	
+					<li><a href="/pupils/sluzhby-sotsialnoy-podderzhki/">Службы социальной поддержки</a></li>
+		
+	
+	
+
+			</ul></li>	
+	
+					<li class="dropdown">
+				<a href="/teachers/" class="dropdown-toggle hidden-xs"  data-hover="dropdown" data-close-others="true">Учителям</a>
+				<a href="/teachers/" class="dropdown-toggle visible-xs" data-toggle="dropdown"  data-hover="dropdown" data-close-others="true">Учителям</a>
+				<ul class="dropdown-menu">
+		
+	
+	
+
+	
+	
+					<li><a href="/teachers/">Аттестации</a></li>
+		
+	
+	
+
+	
+	
+					<li><a href="/teachers/professionalnyy-standart-pedagoga/">Профессиональный стандарт педагога</a></li>
+		
+	
+	
+
+	
+	
+					<li><a href="/teachers/schedule/">Расписание уроков</a></li>
+		
+	
+	
+
+	
+	
+					<li><a href="/teachers/news/">Новости</a></li>
+		
+	
+	
+
+	
+	
+					<li><a href="/teachers/announcing/">Объявления</a></li>
+		
+	
+	
+
+	
+	
+					<li><a href="/teachers/pravila/">Правила внутреннего распорядка</a></li>
+		
+	
+	
+
+	
+	
+					<li><a href="/teachers/docs/">Методические материалы</a></li>
+		
+	
+	
+
+			</ul></li>	
+	
+					<li class="dropdown">
+				<a href="/novyy/" class="dropdown-toggle hidden-xs"  data-hover="dropdown" data-close-others="true">Поступающим</a>
+				<a href="/novyy/" class="dropdown-toggle visible-xs" data-toggle="dropdown"  data-hover="dropdown" data-close-others="true">Поступающим</a>
+				<ul class="dropdown-menu">
+		
+	
+	
+
+	
+	
+					<li><a href="/postupayushchim/pravila-priema.php">Правила приема</a></li>
+		
+	
+	
+
+	
+	
+					<li><a href="/postupayushchim/dokumenty-neobkhodimye-dlya-zachisleniya-v-litsey.php">Документы необходимые для зачисления в лицей</a></li>
+		
+	
+	
+
+	
+	
+					<li><a href="/postupayushchim/priemnaya-komissiya.php">Приемная комиссия</a></li>
+		
+	
+	
+
+	
+	
+					<li><a href="/postupayushchim/podgotovitelnye-kursy.php">Подготовительные курсы</a></li>
+		
+	
+	
+
+	
+	
+					<li><a href="/postupayushchim/shrr.php">ШРР</a></li>
+		
+	
+	
+
+	
+	
+					<li><a href="/postupayushchim/reyting-litseya.php">Рейтинг лицея</a></li>
+		
+	
+	
+
+	
+	
+					<li><a href="/novyy/demoversii-dlya-postupayushchikh.php">Демоверсии для поступающих</a></li>
+		
+	
+	
+
+			</ul></li>	
+	
+					<li class="dropdown">
+				<a href="/contacts/" class="dropdown-toggle hidden-xs"  data-hover="dropdown" data-close-others="true">Контакты</a>
+				<a href="/contacts/" class="dropdown-toggle visible-xs" data-toggle="dropdown"  data-hover="dropdown" data-close-others="true">Контакты</a>
+				<ul class="dropdown-menu">
+		
+	
+	
+
+	
+	
+					<li><a href="/contacts/index.php">Контакты учреждения</a></li>
+		
+	
+	
+
+	
+	
+					<li><a href="/contacts/control.php">Контакты контролирующих организаций</a></li>
+		
+	
+	
+
+	</ul></li></ul>
+            </div>
+        </div>
+    </div>
+		
+    		<div id="carouselTop" class="carousel auto-carousel carousel-3 slide animate-hover-slide bg-alt" >
+    <script type="text/javascript">
+        $(function(){
+            $(".announcing-container .btn").on("click",function(){
+                $(".announcing-text").toggleClass("hidden").parents(".carousel-inner").prev().find(".btn").toggleClass("hidden");
+				$(".nameAD").toggleClass("mb-hidden");
+                return false;
+            });
+        });
+    </script>
+    <div class="announcing-container" style="height: 100%;">
+    <div class="row" style="height: 100%;">
+        <div class="col-md-12" style="height: 100%;">
+                        <div class="carousel-nav slider top-slider" style="height: 100%;">
+                <a href="" class="full-size btn"></a>
+                <a href="" class="full-size btn hidden"></a>
+                
+                <a data-slide="prev" class="left color-two" href="#carouselTop"><i class="fa fa-angle-left"></i></a>
+                <a data-slide="next" class="right color-two" href="#carouselTop"><i class="fa fa-angle-right"></i></a>
+            </div>
+                    </div>
+    </div>
+    </div>
+    <div class="carousel-inner">
+	    <div id="bx_3218110189_16307" class="item active">
+    <div class="box-element white bg-alt" style="margin: 0;">
+        <div class="container">
+            <div class="row mb-0">
+                <div class="col-md-12">
+                    <h4 class="nameAD mb-none c-white mb-hidden mb-0">
+                        Дополнительное образование                    </h4>
+                </div>
+                <!-- <div class="col-md-4"></div> -->
+            </div>
+        </div>
+    </div>
+    <div class="box-element announcing-text light hidden bg-alt" style="margin: 0;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+        <div class="announcing fix-48" >
+            дистанционно на договорной основе в лицее не ведется в апреле-мае 2020,<br>
+это касается всех курсов для школьников города<br>            </div>
+        </div>
+        </div>
+    </div>
+    </div>
+    </div>
+	    <div id="bx_3218110189_2614" class="item ">
+    <div class="box-element white bg-alt" style="margin: 0;">
+        <div class="container">
+            <div class="row mb-0">
+                <div class="col-md-12">
+                    <h4 class="nameAD mb-none c-white mb-hidden mb-0">
+                        Приглашаем школьников города на подготовительные курсы                     </h4>
+                </div>
+                <!-- <div class="col-md-4"></div> -->
+            </div>
+        </div>
+    </div>
+    <div class="box-element announcing-text light hidden bg-alt" style="margin: 0;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+        <div class="announcing fix-48" >
+            звонить по телефону 32 47 36            </div>
+        </div>
+        </div>
+    </div>
+    </div>
+    </div>
+	    <div id="bx_3218110189_13073" class="item ">
+    <div class="box-element white bg-alt" style="margin: 0;">
+        <div class="container">
+            <div class="row mb-0">
+                <div class="col-md-12">
+                    <h4 class="nameAD mb-none c-white mb-hidden mb-0">
+                        Приглашаем в Школу раннего развития                    </h4>
+                </div>
+                <!-- <div class="col-md-4"></div> -->
+            </div>
+        </div>
+    </div>
+    <div class="box-element announcing-text light hidden bg-alt" style="margin: 0;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+        <div class="announcing fix-48" >
+            учащихся 4,5,6,7 классов школ города Хабаровска            </div>
+        </div>
+        </div>
+    </div>
+    </div>
+    </div>
+        </div>
+        </div>
+    </header>
+<a target="_blank" href="https://www.may9.ru/"><img width="1228" src="/upload/xabar/9may7.jpg" height="138"></a>  
+
+<section class="slice bb">
+<div class="wp-section">
+<div class="container content">
+
+
+
+
+<div class="row">
+	<div class="col-md-8">
+		<div class="row mb-20">
+			<div class="col-md-12">
+				 			</div>
+		</div>
+		<div class="mp section-title-wr mt-15">
+			<h2 class="section-title">Последние новости</h2>
+			<div class="aux-nav">
+ <a href="/news/"> <i class="fa fa-paperclip"></i> Все новости</a>
+			</div>
+		</div>
+
+<div class="light-gray p-20 ba mb-10">  <!--   -->
+
+		 <div class="row" >
+			<div class="col-md-4 col-sm-6" id="bx_1970176138_16264">
+			<div class="wp-block article grid">
+				<div class="article-image">
+												 <a href="/news/for-parents/profilaktike-grippa-orvi-i-novoy-koronavirusnoy-infektsii/"><img alt="О профилактике гриппа, ОРВИ и новой коронавирусной инфекции" src="/upload/resize_cache/iblock/498/720_463_2/49884d4c1d42d03b01b225cb9ab22483.png" class="img-responsive"></a>
+									</div>
+
+                                            <small>11 Мая 2020</small>
+                    					<h3 class="title">
+							<a href="/news/for-parents/profilaktike-grippa-orvi-i-novoy-koronavirusnoy-infektsii/" hidefocus="true">О профилактике гриппа, ОРВИ и новой коронавирусной инфекции</a>
+					</h3>
+					<p>
+                        											полезная информация</a>
+										</p>
+
+			</div>
+		</div>
+			<div class="col-md-4 col-sm-6" id="bx_1970176138_16334">
+			<div class="wp-block article grid">
+				<div class="article-image">
+												 <a href="/news/dlya-uchenikov/bessmertnyy-polk-litseya/"><img alt="БЕССМЕРТНЫЙ ПОЛК ЛИЦЕЯ" src="/upload/iblock/2e4/2e47546aa9d729352c6835f3548bcdfd.jpg" class="img-responsive"></a>
+									</div>
+
+                                            <small>9 Мая 2020</small>
+                    					<h3 class="title">
+							<a href="/news/dlya-uchenikov/bessmertnyy-polk-litseya/" hidefocus="true">БЕССМЕРТНЫЙ ПОЛК ЛИЦЕЯ</a>
+					</h3>
+					<p>
+                        											Акция лицея к 9 мая 2020 года</a>
+										</p>
+
+			</div>
+		</div>
+			<div class="col-md-4 col-sm-6" id="bx_1970176138_16333">
+			<div class="wp-block article grid">
+				<div class="article-image">
+												 <a href="/news/dlya-uchenikov/lit-pomnit-lit-gorditsya-/"><img alt="«ЛИТ помнит! ЛИТ гордится!»" src="/upload/iblock/563/563a3a859f82b22c8c8a78d4e83f7d24.JPG" class="img-responsive"></a>
+									</div>
+
+                                            <small>9 Мая 2020</small>
+                    					<h3 class="title">
+							<a href="/news/dlya-uchenikov/lit-pomnit-lit-gorditsya-/" hidefocus="true">«ЛИТ помнит! ЛИТ гордится!»</a>
+					</h3>
+					<p>
+                        											Акция лицея к Дню Победы</a>
+										</p>
+
+			</div>
+		</div>
+	</div><div class='row'>		<div class="col-md-4 col-sm-6" id="bx_1970176138_16332">
+			<div class="wp-block article grid">
+				<div class="article-image">
+												 <a href="/news/dlya-uchenikov/pamyat-v-serdtse-zhiva/"><img alt="Память в сердце жива" src="/upload/iblock/225/22541d2426a72a5cd412cc996bd27f4e.jpg" class="img-responsive"></a>
+									</div>
+
+                                            <small>9 Мая 2020</small>
+                    					<h3 class="title">
+							<a href="/news/dlya-uchenikov/pamyat-v-serdtse-zhiva/" hidefocus="true">Память в сердце жива</a>
+					</h3>
+					<p>
+                        											Презентация журнала "Хабар" №45 2020 год</a>
+										</p>
+
+			</div>
+		</div>
+			<div class="col-md-4 col-sm-6" id="bx_1970176138_16329">
+			<div class="wp-block article grid">
+				<div class="article-image">
+												 <a href="/news/dlya-uchenikov/tikhookeanskaya-zvezda/"><img alt="Тихоокеанская звезда" src="/upload/iblock/66e/66e1297cfb23120f87d79c37c639f1d2.jpg" class="img-responsive"></a>
+									</div>
+
+                                            <small>7 Мая 2020</small>
+                    					<h3 class="title">
+							<a href="/news/dlya-uchenikov/tikhookeanskaya-zvezda/" hidefocus="true">Тихоокеанская звезда</a>
+					</h3>
+					<p>
+                        											пишет о дистанционном обучении в ЛИТе</a>
+										</p>
+
+			</div>
+		</div>
+			<div class="col-md-4 col-sm-6" id="bx_1970176138_16325">
+			<div class="wp-block article grid">
+				<div class="article-image">
+												 <a href="/news/dlya-uchenikov/75-letiyu-pobedy-v-velikoy-otechestvennoy-voyne-/"><img alt="75 летию Победы в Великой отечественной войне " src="/upload/resize_cache/iblock/60a/600_400_2/60a3022d8c3d4be655be0900e848e8b4.jpg" class="img-responsive"></a>
+									</div>
+
+                                            <small>6 Мая 2020</small>
+                    					<h3 class="title">
+							<a href="/news/dlya-uchenikov/75-letiyu-pobedy-v-velikoy-otechestvennoy-voyne-/" hidefocus="true">75 летию Победы в Великой отечественной войне </a>
+					</h3>
+					<p>
+                        											посвящается</a>
+										</p>
+
+			</div>
+		</div>
+	</div><div class='row'>		<div class="col-md-4 col-sm-6" id="bx_1970176138_16317">
+			<div class="wp-block article grid">
+				<div class="article-image">
+												 <a href="/news/for-parents/informatsiya-dlya-uchashchikhsya-vsekh-kursov-/"><img alt="Информация для   учащихся  " src="/upload/resize_cache/iblock/3ac/720_463_2/3ac63ff7d32faeb22692e12b98bdb34f.png" class="img-responsive"></a>
+									</div>
+
+                                            <small>30 Апреля 2020</small>
+                    					<h3 class="title">
+							<a href="/news/for-parents/informatsiya-dlya-uchashchikhsya-vsekh-kursov-/" hidefocus="true">Информация для   учащихся  </a>
+					</h3>
+					<p>
+                        											и родителей учащихся курсов</a>
+										</p>
+
+			</div>
+		</div>
+			<div class="col-md-4 col-sm-6" id="bx_1970176138_16303">
+			<div class="wp-block article grid">
+				<div class="article-image">
+												 <a href="/news/for-parents/lit-v-dvadtsatke-luchshikh-shkoly-dvfo-/"><img alt="ЛИТ в двадцатке лучших школ ДВФО по поступлению" src="/upload/iblock/d81/d81111eff7d009c8225b7793ba09a698.jpg" class="img-responsive"></a>
+									</div>
+
+                                            <small>22 Апреля 2020</small>
+                    					<h3 class="title">
+							<a href="/news/for-parents/lit-v-dvadtsatke-luchshikh-shkoly-dvfo-/" hidefocus="true">ЛИТ в двадцатке лучших школ ДВФО по поступлению</a>
+					</h3>
+					<p>
+                        											выпускников в
+ведущие вузы России</a>
+										</p>
+
+			</div>
+		</div>
+			<div class="col-md-4 col-sm-6" id="bx_1970176138_16302">
+			<div class="wp-block article grid">
+				<div class="article-image">
+												 <a href="/news/dlya-uchenikov/ob-utverzhdenii-minimalnogo-kolichestva/"><img alt="Об утверждении минимального количества" src="/upload/iblock/dc3/dc361ece32dd2f58ba2196edc34c3e8f.JPG" class="img-responsive"></a>
+									</div>
+
+                                            <small>21 Апреля 2020</small>
+                    					<h3 class="title">
+							<a href="/news/dlya-uchenikov/ob-utverzhdenii-minimalnogo-kolichestva/" hidefocus="true">Об утверждении минимального количества</a>
+					</h3>
+					<p>
+                        											первичных баллов ОГЭ</a>
+										</p>
+
+			</div>
+		</div>
+	</div><div class='row'>		<div class="col-md-4 col-sm-6" id="bx_1970176138_16305">
+			<div class="wp-block article grid">
+				<div class="article-image">
+												 <a href="/news/for-parents/goryachaya-liniya-po-voprosam-distantsionnogo-obrazovaniya/"><img alt="Горячая линия по вопросам дистанционного образования" src="/upload/iblock/1c6/1c613e2858f01b658bb823c4dc54873f.jpg" class="img-responsive"></a>
+									</div>
+
+                                            <small>20 Апреля 2020</small>
+                    					<h3 class="title">
+							<a href="/news/for-parents/goryachaya-liniya-po-voprosam-distantsionnogo-obrazovaniya/" hidefocus="true">Горячая линия по вопросам дистанционного образования</a>
+					</h3>
+					<p>
+                        											&nbsp;&nbsp;</a>
+										</p>
+
+			</div>
+		</div>
+			<div class="col-md-4 col-sm-6" id="bx_1970176138_16306">
+			<div class="wp-block article grid">
+				<div class="article-image">
+												 <a href="/news/for-parents/rekomendatsii-minprosveshcheniya-rossii-po-organizatsii-obucheniya/"><img alt="Рекомендации Минпросвещения России по организации обучения" src="/upload/iblock/3e3/3e39bd7355ddc2daafa0518e101392fd.jpg" class="img-responsive"></a>
+									</div>
+
+                                            <small>18 Апреля 2020</small>
+                    					<h3 class="title">
+							<a href="/news/for-parents/rekomendatsii-minprosveshcheniya-rossii-po-organizatsii-obucheniya/" hidefocus="true">Рекомендации Минпросвещения России по организации обучения</a>
+					</h3>
+					<p>
+                        											на дому с использованием дистанционных технологий</a>
+										</p>
+
+			</div>
+		</div>
+			<div class="col-md-4 col-sm-6" id="bx_1970176138_16267">
+			<div class="wp-block article grid">
+				<div class="article-image">
+												 <a href="/news/for-parents/nesootvetstvuyushchaya-realiyam-konstitutsiya-istochnik-nestabilnosti/"><img alt="Несоответствующая реалиям конституция- источник нестабильности" src="/upload/iblock/930/930f0f031db1d576ba0aaf8a0d6d90f8.jpg" class="img-responsive"></a>
+									</div>
+
+                                            <small>15 Апреля 2020</small>
+                    					<h3 class="title">
+							<a href="/news/for-parents/nesootvetstvuyushchaya-realiyam-konstitutsiya-istochnik-nestabilnosti/" hidefocus="true">Несоответствующая реалиям конституция- источник нестабильности</a>
+					</h3>
+					<p>
+                        											Директор о поправках в конституцию</a>
+										</p>
+
+			</div>
+		</div>
+	</div><div class='row'>		<div class="col-md-4 col-sm-6" id="bx_1970176138_16315">
+			<div class="wp-block article grid">
+				<div class="article-image">
+												 <a href="/news/dlya-uchenikov/okonchanie-uchebnogo-goda/"><img alt="Окончание учебного года" src="/upload/iblock/b6c/b6cc36438fb60116dbc9e82deb40f3c0.jpg" class="img-responsive"></a>
+									</div>
+
+                                            <small>12 Апреля 2020</small>
+                    					<h3 class="title">
+							<a href="/news/dlya-uchenikov/okonchanie-uchebnogo-goda/" hidefocus="true">Окончание учебного года</a>
+					</h3>
+					<p>
+                        											в 5-7 классах лицея</a>
+										</p>
+
+			</div>
+		</div>
+			<div class="col-md-4 col-sm-6" id="bx_1970176138_501">
+			<div class="wp-block article grid">
+				<div class="article-image">
+												 <a href="/news/for-parents/priem-uchashchikhsya-5-klassov-na-fiziko-matematicheskie-kursy-shrr2/"><img alt="Прием учащихся в 5 и 6 классы ШРР " src="/upload/resize_cache/iblock/85f/720_463_2/85fe8e4a66ff5119673d404ec6fa80c9.jpg" class="img-responsive"></a>
+									</div>
+
+                                            <small>10 Апреля 2020</small>
+                    					<h3 class="title">
+							<a href="/news/for-parents/priem-uchashchikhsya-5-klassov-na-fiziko-matematicheskie-kursy-shrr2/" hidefocus="true">Прием учащихся в 5 и 6 классы ШРР </a>
+					</h3>
+					<p>
+                        											
+	 (физико-математические курсы для учащихся&nbsp;5 - 7 классов)
+
+ </a>
+										</p>
+
+			</div>
+		</div>
+			<div class="col-md-4 col-sm-6" id="bx_1970176138_16288">
+			<div class="wp-block article grid">
+				<div class="article-image">
+												 <a href="/news/dlya-uchenikov/informatsiya-o-resursakh-dlya-podgotovki-i-samopodgotovki-/"><img alt="Информация о ресурсах для самоподготовки и подготовки к ГИА" src="/upload/iblock/ce7/ce7f8741b775896cb398f8f51f706b6c.jpg" class="img-responsive"></a>
+									</div>
+
+                                            <small>3 Апреля 2020</small>
+                    					<h3 class="title">
+							<a href="/news/dlya-uchenikov/informatsiya-o-resursakh-dlya-podgotovki-i-samopodgotovki-/" hidefocus="true">Информация о ресурсах для самоподготовки и подготовки к ГИА</a>
+					</h3>
+					<p>
+                        											&nbsp;&nbsp;</a>
+										</p>
+
+			</div>
+		</div>
+</div>
+</div> <!--       -->
+
+
+		<div class="section-title-wr mp">
+			<h2 class="section-title">О лицее</h2>
+			<div class="aux-nav">
+ <a href="/about/teachers/"><i class="fa fa-paperclip"> </i>Педагогический состав?</a>
+			</div>
+		</div>
+		<div class="light-gray p-20 ba mb-10">
+			<div class="row">
+				<div class="col-md-12">
+					 <p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+ <strong><span style="color: #003562; font-size: 12pt;">ЛИТ</span></strong><span style="color: #003562; font-size: 12pt;">&nbsp;- это учебное заведение для учащихся с 5 по 11 класс. Лицей организует углубленную подготовку обучающихся по предметам технического и естественнонаучного профиля. </span><span style="color: #003562; font-size: 12pt;"> </span><span style="font-size: 12pt;"> </span>
+</p>
+ <span style="font-size: 12pt;"> </span><span style="color: #003562; font-size: 12pt;"> </span><span style="font-size: 12pt;"> </span>
+<p>
+ <span style="color: #363636;"><span style="color: #003562; font-size: 12pt;">Лицей вошел в ТОП-500 лучших школ России, в &nbsp;ТОП -100 лучших школ России по математическому и физическому образованию.&nbsp; Весной 2019 года, единственная школа в хабаровском крае, вошел в ТОП- 200 лучших школ России по информатизации.&nbsp;</span></span>
+</p>
+<p>
+ <span style="color: #363636;"><span style="color: #003562; font-size: 12pt;">Это лучшая школа&nbsp;города и края по количеству&nbsp; победителей олимпиад. Ученики лицея показывают стабильно высокое качество образования как в течение учебного года 92 % - процент качества, 4,5 – средний балл, так и при сдаче единых государственных экзаменов</span><b><span style="color: #003562; font-size: 12pt;">.&nbsp;</span></b></span><span style="color: #003562; font-size: 12pt;"> </span><span style="font-size: 12pt;"> </span>
+</p>
+ <span style="font-size: 12pt;"> </span><span style="color: #003562; font-size: 12pt;"> </span><span style="font-size: 12pt;"> </span>
+<div>
+ <span style="font-size: 12pt;"> </span><span style="color: #003562; font-size: 12pt;"> </span><span style="color: #003562; font-size: 12pt;">Выпускники учатся в самых престижных вузах Дальнего Востока, России и за рубежом.</span>
+</div>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+ <br>				</div>
+				 <!--
+				<div class="col-md-5">
+					                 <div class="row" id="bx_40480796_22">
+            <div class="pl-20 pr-20">
+                                    <a href="/about/teachers/director_shkoli/polozova_vv/"><img alt="Полозова Виктория Владимировна"
+                                                                     src="/upload/iblock/da4/da463eda9a3d4965fbb91e9e969a0c05.jpg"
+                                                                     class="img-responsive"></a>
+                                            </div>
+            <div class="pl-20 pr-20 text-center">
+                				<p class="mt-20 bold caps small" >
+					<a href="/about/teachers/director_shkoli/polozova_vv/">Директор лицея</a>
+				</p>
+                                <h4>
+                    <a href="/about/teachers/director_shkoli/polozova_vv/"
+                       hidefocus="true">Полозова Виктория Владимировна</a>
+                </h4>
+            </div>
+        </div>
+		
+    <section class="slice bg-lgrey"> </section>
+				</div>
+-->
+			</div>
+		</div>
+		<div class="section-title-wr mp">
+			<h2 class="section-title">Фотогалерея</h2>
+			<div class="aux-nav">
+ <a href="/school-life/gallery/"> <i class="fa fa-paperclip"></i> Все фото</a>
+			</div>
+		</div>
+
+<div class="light-gray p-20 ba mb-10">  <!--   -->
+
+		 <script>
+$(document).ready(function() {
+	$(".theater").fancybox({
+		openEffect	: 'none',
+		closeEffect	: 'none'
+	});
+});
+</script>
+    <div class="row">
+	      <div class="col-md-2 col-xs-4 mb-20">
+          <a class="theater" rel="gallery1" title="" href="/upload/iblock/f4a/f4ab5b68f9eacd4cea8be1e9cf96889b.JPG"><img id="bx_2618107327_524" src="/upload/resize_cache/iblock/f4a/100_100_2/f4ab5b68f9eacd4cea8be1e9cf96889b.JPG" alt="родители" title="родители" height="100" width="100"></a>
+       </div>
+	              <div class="col-md-2 col-xs-4 mb-20">
+          <a class="theater" rel="gallery1" title="" href="/upload/iblock/fda/fda9976b97896ad143343e29444536a6.jpg"><img id="bx_2618107327_305" src="/upload/resize_cache/iblock/fda/100_100_2/fda9976b97896ad143343e29444536a6.jpg" alt="011.jpg" title="011.jpg" height="100" width="100"></a>
+       </div>
+	              <div class="col-md-2 col-xs-4 mb-20">
+          <a class="theater" rel="gallery1" title="" href="/upload/iblock/1c6/1c6cea2fc1a63f6819f0673750aa6a54.jpg"><img id="bx_2618107327_293" src="/upload/resize_cache/iblock/1c6/100_100_2/1c6cea2fc1a63f6819f0673750aa6a54.jpg" alt="IMG-20170509-WA0025.jpg" title="IMG-20170509-WA0025.jpg" height="100" width="100"></a>
+       </div>
+	              <div class="col-md-2 col-xs-4 mb-20">
+          <a class="theater" rel="gallery1" title="" href="/upload/iblock/915/9155d381df29da3e8d2635d7ba388453.JPG"><img id="bx_2618107327_295" src="/upload/resize_cache/iblock/915/100_100_2/9155d381df29da3e8d2635d7ba388453.JPG" alt="VC9A2001.JPG" title="VC9A2001.JPG" height="100" width="100"></a>
+       </div>
+	              <div class="col-md-2 col-xs-4 mb-20">
+          <a class="theater" rel="gallery1" title="" href="/upload/iblock/c75/c750bb2bc903826736dc9e45b77a767c.JPG"><img id="bx_2618107327_296" src="/upload/resize_cache/iblock/c75/100_100_2/c750bb2bc903826736dc9e45b77a767c.JPG" alt="VC9A4080.JPG" title="VC9A4080.JPG" height="100" width="100"></a>
+       </div>
+	              <div class="col-md-2 col-xs-4 mb-20">
+          <a class="theater" rel="gallery1" title="" href="/upload/iblock/dae/dae9dc68a3249ce1169ee57948ebeb71.JPG"><img id="bx_2618107327_308" src="/upload/resize_cache/iblock/dae/100_100_2/dae9dc68a3249ce1169ee57948ebeb71.JPG" alt="IMG_5376.JPG" title="IMG_5376.JPG" height="100" width="100"></a>
+       </div>
+	   </div><div class="row">           <div class="col-md-2 col-xs-4 mb-20">
+          <a class="theater" rel="gallery1" title="" href="/upload/iblock/671/671b23febd12c3682170ff11793295fe.JPG"><img id="bx_2618107327_292" src="/upload/resize_cache/iblock/671/100_100_2/671b23febd12c3682170ff11793295fe.JPG" alt="IMG_9959.JPG" title="IMG_9959.JPG" height="100" width="100"></a>
+       </div>
+	              <div class="col-md-2 col-xs-4 mb-20">
+          <a class="theater" rel="gallery1" title="" href="/upload/iblock/488/48851cdb3ba11c128f7819d768d5cbfb.JPG"><img id="bx_2618107327_294" src="/upload/resize_cache/iblock/488/100_100_2/48851cdb3ba11c128f7819d768d5cbfb.JPG" alt="DSC09376.JPG" title="DSC09376.JPG" height="100" width="100"></a>
+       </div>
+	              <div class="col-md-2 col-xs-4 mb-20">
+          <a class="theater" rel="gallery1" title="" href="/upload/iblock/a52/a521fde46b4cf6470b817da0e6387d32.JPG"><img id="bx_2618107327_486" src="/upload/resize_cache/iblock/a52/100_100_2/a521fde46b4cf6470b817da0e6387d32.JPG" alt="VC9A9600.JPG" title="VC9A9600.JPG" height="100" width="100"></a>
+       </div>
+	              <div class="col-md-2 col-xs-4 mb-20">
+          <a class="theater" rel="gallery1" title="" href="/upload/iblock/fd7/fd706be6333f0c070eab0e8d71f0e96e.jpg"><img id="bx_2618107327_612" src="/upload/resize_cache/iblock/fd7/100_100_2/fd706be6333f0c070eab0e8d71f0e96e.jpg" alt="День информатики" title="День информатики" height="100" width="100"></a>
+       </div>
+	              <div class="col-md-2 col-xs-4 mb-20">
+          <a class="theater" rel="gallery1" title="" href="/upload/iblock/8ca/8cafd1e75e2aeeeb06f06857acaae2ec.jpg"><img id="bx_2618107327_869" src="/upload/resize_cache/iblock/8ca/100_100_2/8cafd1e75e2aeeeb06f06857acaae2ec.jpg" alt="Чемпионат Хабаровска по баскетболу " title="Чемпионат Хабаровска по баскетболу " height="100" width="100"></a>
+       </div>
+	              <div class="col-md-2 col-xs-4 mb-20">
+          <a class="theater" rel="gallery1" title="" href="/upload/iblock/504/5044256f45ace6e524a559f22ee9e3ce.jpg"><img id="bx_2618107327_303" src="/upload/resize_cache/iblock/504/100_100_2/5044256f45ace6e524a559f22ee9e3ce.jpg" alt="006.jpg" title="006.jpg" height="100" width="100"></a>
+       </div>
+	   </div><div class="row">         </div>
+
+	
+
+
+</div> <!--       -->
+ <!--  Расписание -->
+	<div class="section-title-wr mp mt-15">
+			<h2 style="width: 50%;" class="section-title">Расписание</h2>
+			<div class="aux-nav">
+ <a href="/schedule/"> <i class="fa fa-paperclip"></i> Всё расписание</a>
+			</div>
+		</div>
+		 <script type="text/javascript">
+  $(function(){
+    $("#section").on("change",function(){
+      $("#element [value='']").attr("selected", "selected");
+      if($("#section").val()!="")
+      {
+        $("#element").show();
+        $('[data-class]').hide();
+        qw = $("#section").val();
+        $('[data-class="'+qw+'"]').show();
+      }
+      else $("#element").hide();
+    }
+                    );
+    $("#element").on("change",function(){
+      if($("#element").val()!=""){
+        element=$("#element").val();
+        $.ajax(
+			{type: "POST",
+			url: "/ajax/schedule.php",
+			data: "id="+element,
+			success: function(data) {
+			$("#currentschedule").html(data);}
+});
+      }
+    }
+                    );
+  }
+   );
+</script>
+<div class="light-gray p-20 ba mb-20"> 
+  <form id="classes_form" action="">
+    <div class="form-inline">
+      <div class="form-group">
+        <select name="section" id="section" class="form-control">
+          <option value="">
+            Выберите паралелль          </option>
+                    <option value="" 
+                  selected
+          >
+          5 класс          </option>
+                  <option value="kl7" 
+                  >
+          7 класс          </option>
+                  <option value="kl6" 
+                  >
+          6 класс          </option>
+                  <option value="" 
+                  selected
+          >
+          5-е классы          </option>
+                </select>
+    </div>
+    <div class="form-group">
+      <select name="element" id="element" class="form-control" 
+               style="display:none;
+      ">
+      <option value="">
+        Выберите класс      </option>
+            <option data-class="kl7" 
+               style="display:none;"
+       value="171">
+      7б      </option>
+          <option data-class="" 
+               value="173">
+      Класс 5-Б      </option>
+          <option data-class="kl7" 
+               style="display:none;"
+       value="324">
+      7a      </option>
+          <option data-class="" 
+               value="323">
+      5в      </option>
+        </select>
+</div>
+</div>
+</form>
+</div>
+ 
+
+ 
+<br>
+		<div id="currentschedule">
+		</div>
+	</div>
+	<div class="col-md-4">
+		 <!--
+		<div class="section-title-wr mp">
+ 
+<h2 class="section-title"><span>Контакты</span></h2>
+					<div class="aux-nav">
+ <a href="/contacts/"> <i class="fa fa-paperclip"></i> Подробнее</a>
+					</div>
+				</div>
+			/				 /
+-->
+		<div class="mp section-title-wr mt-20">
+			<h2 class="section-title">Объявления</h2>
+			<div class="aux-nav">
+ <a href="/announcing/"> <i class="fa fa-paperclip"></i> В раздел</a>
+			</div>
+		</div>
+
+<div class="light-gray p-20 ba mb-10">   <!--      -->
+		 	    <div class="wp-block article grid" id="bx_651765591_16307">
+       <h3 class="title"><a href="/announcing/for-pupils/">Дополнительное образование</a></h3>
+        <p>дистанционно на договорной основе в лицее не ведется в апреле-мае 2020,
+это касается всех курсов для школьников города</p>
+    </div>
+	    <div class="wp-block article grid" id="bx_651765591_2614">
+       <h3 class="title"><a href="/announcing/">Приглашаем школьников города на подготовительные курсы </a></h3>
+        <p>звонить по телефону 32 47 36</p>
+    </div>
+	    <div class="wp-block article grid" id="bx_651765591_13073">
+       <h3 class="title"><a href="/announcing/">Приглашаем в Школу раннего развития</a></h3>
+        <p>учащихся 4,5,6,7 классов школ города Хабаровска</p>
+    </div>
+ 
+
+</div>  <!--        -->
+
+                <div class="row" id="bx_1912816787_22">
+            <div class="pl-20 pr-20">
+                                    <a href="/about/teachers/director_shkoli/polozova_vv/"><img alt="Полозова Виктория Владимировна"
+                                                                     src="/upload/iblock/da4/da463eda9a3d4965fbb91e9e969a0c05.jpg"
+                                                                     class="img-responsive"></a>
+                                            </div>
+            <div class="pl-20 pr-20 text-center">
+                				<p class="mt-20 bold caps small" >
+					<a href="/about/teachers/director_shkoli/polozova_vv/">Директор лицея</a>
+				</p>
+                                <h4>
+                    <a href="/about/teachers/director_shkoli/polozova_vv/"
+                       hidefocus="true">Полозова Виктория Владимировна</a>
+                </h4>
+            </div>
+        </div>
+		
+     
+
+
+
+<!--
+<section class="slice bg-lgrey"> </section>
+-->
+		<hr>
+		<div class="mb-20">
+			 <div class="row">
+      
+        <div class="col-xs-12 mt-15 hidden-sm hidden-xs" id="bx_84177925_16215" data-ls="transition2d:1;timeshift:-1000;">
+                                                <a target="_blank" href="https://www.may9.ru/"><img class="img-responsive" src="/upload/iblock/b48/b48af525df3348e5c84d9f4dd7042e27.jpg" class="ls-bg" alt="75 лет Победы!"/></a>
+                					</div>    
+		      
+        <div class="col-xs-12 mt-15 hidden-sm hidden-xs" id="bx_84177925_1317" data-ls="transition2d:1;timeshift:-1000;">
+                                                <a target="_blank" href="http://www.lit.khv.ru/pupils/gia/"><img class="img-responsive" src="/upload/iblock/e92/e92121427aa503630672d7070a54ed1a.jpg" class="ls-bg" alt="Государственная итоговая аттестация"/></a>
+                					</div>    
+		      
+        <div class="col-xs-12 mt-15 hidden-sm hidden-xs" id="bx_84177925_733" data-ls="transition2d:1;timeshift:-1000;">
+                                                <a target="_blank" href="http://www.lit.khv.ru/tsifrovoy-khudozhnik-2018.php"><img class="img-responsive" src="/upload/iblock/394/3945d791b0718aa21949eda75fe64b41.jpg" class="ls-bg" alt="Цифровой художник - 2020"/></a>
+                					</div>    
+		      
+        <div class="col-xs-12 mt-15 hidden-sm hidden-xs" id="bx_84177925_602" data-ls="transition2d:1;timeshift:-1000;">
+                                                <a target="_blank" href="http://bus.gov.ru/pub/independentRating/list "><img class="img-responsive" src="/upload/resize_cache/iblock/724/720_463_1/7242d52ec22dfea8befe183141e29646.jpg" class="ls-bg" alt="Результаты независимой оценки качества оказания услуг организациями"/></a>
+                					</div>    
+		      
+        <div class="col-xs-12 mt-15 hidden-sm hidden-xs" id="bx_84177925_145" data-ls="transition2d:1;timeshift:-1000;">
+                                                <a target="_blank" href="/about/"><img class="img-responsive" src="/upload/iblock/fb4/fb453a91899467fa9da624d5f55f44dd.png" class="ls-bg" alt="Основные сведения об образовательной организации"/></a>
+                					</div>    
+		      
+        <div class="col-xs-12 mt-15 hidden-sm hidden-xs" id="bx_84177925_146" data-ls="transition2d:1;timeshift:-1000;">
+                                                <a target="_blank" href="/schedule/"><img class="img-responsive" src="/upload/iblock/4cd/4cd740ca5f4c8fe22fe30450b21aff1b.png" class="ls-bg" alt="Расписание уроков"/></a>
+                					</div>    
+		      
+        <div class="col-xs-12 mt-15 hidden-sm hidden-xs" id="bx_84177925_144" data-ls="transition2d:1;timeshift:-1000;">
+                                                <a target="_blank" href="http://obrnadzor.gov.ru"><img class="img-responsive" src="/upload/iblock/368/3683e38c057867214ec5fdb3230bfdde.png" class="ls-bg" alt="Роcобрнадзор"/></a>
+                					</div>    
+		      
+        <div class="col-xs-12 mt-15 hidden-sm hidden-xs" id="bx_84177925_3986" data-ls="transition2d:1;timeshift:-1000;">
+                                                <a target="_blank" href="http://27.rkn.gov.ru/directions/pd/p26200/"><img class="img-responsive" src="/upload/iblock/9ee/9ee72e708cc301926bd2d22f39d7738f.jpg" class="ls-bg" alt="Роскомнадзор"/></a>
+                					</div>    
+		    </div>
+
+		</div>
+		 	</div>
+</div>
+<div class="wp-section">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 mp">
+				<div class="section-title-wr">
+					<h3 class="section-title">Информационные ресурсы</h3>
+				</div>
+				 
+<div id="carouselWork" class="carousel carousel-3 slide animate-hover-slide">
+			<div class="carousel-nav">
+			<a data-slide="prev" class="left" href="#carouselWork"><i class="fa fa-angle-left"></i></a>
+			<a data-slide="next" class="right" href="#carouselWork"><i class="fa fa-angle-right"></i></a>
+		</div>
+	    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+        <div class="item active">
+            <div class="row">
+											<div id="bx_2512087444_155" class="col-md-3 col-sm-6 col-xs-6">
+					<div class="client">
+													<a target="_blank" href="http://xn--80abucjiibhv9a.xn--p1ai/"><img alt="Министерство образования и науки Российской Федерации" src="/upload/iblock/025/0251b9e059e3be3cc4e28c12426fe3c9.png" class="img-responsive"></a>											</div>
+				</div>
+											<div id="bx_2512087444_158" class="col-md-3 col-sm-6 col-xs-6">
+					<div class="client">
+													<a target="_blank" href="http://www.edu.ru/"><img alt="Федеральный портал «Российское образование»" src="/upload/iblock/129/1290b9e632f8c66eeedeaab86a259dae.png" class="img-responsive"></a>											</div>
+				</div>
+											<div id="bx_2512087444_159" class="col-md-3 col-sm-6 col-xs-6">
+					<div class="client">
+													<a target="_blank" href="http://window.edu.ru/"><img alt="Информационная система «Единое окно доступа к образовательным ресурсам»" src="/upload/iblock/660/6600ca4b44f64ccdb7afcdd698d752bc.png" class="img-responsive"></a>											</div>
+				</div>
+											<div id="bx_2512087444_160" class="col-md-3 col-sm-6 col-xs-6">
+					<div class="client">
+													<a target="_blank" href="http://fcior.edu.ru/"><img alt="Федеральный центр информационно-образовательных ресурсов" src="/upload/iblock/42c/42c56550a48b6060cf3a8cd95da80196.png" class="img-responsive"></a>											</div>
+				</div>
+							</div></div><div class='item'><div class='row'>				<div id="bx_2512087444_148" class="col-md-3 col-sm-6 col-xs-6">
+					<div class="client">
+													<a target="_blank" href="http://www.gosuslugi.ru/"><img alt="Электронное правительство. Госуслуги" src="/upload/resize_cache/iblock/2b7/360_110_2/2b72cf1d889a7eaa71fc25a9b4510abb.png" class="img-responsive"></a>											</div>
+				</div>
+											<div id="bx_2512087444_150" class="col-md-3 col-sm-6 col-xs-6">
+					<div class="client">
+													<a target="_blank" href="http://rospotrebnadzor.ru/"><img alt="Федеральная служба по надзору  в сфере защиты прав потребителей и благополучия человека" src="/upload/iblock/c74/c74dc7fc4bca1d289c273fcdc617b688.png" class="img-responsive"></a>											</div>
+				</div>
+											<div id="bx_2512087444_154" class="col-md-3 col-sm-6 col-xs-6">
+					<div class="client">
+													<a target="_blank" href="https://02.mvd.ru/Press_sluzhba/Nashi_proekti/JEKSTREMIZMU.HET"><img alt="ЭКСТРЕМИЗМУ.НЕТ" src="/upload/iblock/146/146f2e5433321423eb8779880720a206.png" class="img-responsive"></a>											</div>
+				</div>
+			            </div>
+        </div>
+    </div>
+</div>
+
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+</div>
+</div>
+</section>
+
+<center><span style="font-size: 9pt; font-family: Verdana; color: #0000ff;">&nbsp;&nbsp;Персональные данные обучающихся размещены на основании согласия заявителей и в соответствии с федеральным законом от 27.06.2006 № 152-ФЗ "О персональных данных"</span></center>
+<footer class="footer " style="background-image: url('/images/bg/footer/pt_footer_1.png'); background-size:auto; background-repeat:no-repeat;background-color:#f58f51;">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+				<div class="col">
+					<div class="contacts">
+						<h4>Наши контакты</h4>
+						<ul class="mb-20">
+	<li><i class="fa fa-map-marker"></i> 680000 , г. Хабаровск, ул.Гоголя, д.24</li>
+	<li><i class="fa fa-phone"></i> +7 (4212) 45-00-71</li>
+	<li><i class="fa fa-envelope"></i> litkhv@mail.ru</li>
+</ul>
+<p>Нашли ошибку? Сообщите нам!<br>Выделите и нажмите Ctr+Enter</p>					</div>
+					<div class="informer">
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="col">
+					<h4>Разделы</h4>
+					<div id="bottom-menu-block">
+    <div class="bottom-menu">
+        <ul class="nav col-md-6">
+            <li>
+                            <li class="active first-level"><a href="/">Главная</a></li>
+                            <li class=" first-level"><a href="/about/">О школе</a></li>
+                            <li class=" first-level"><a href="/shkolnoe-pitanie/">Школьное питание</a></li>
+                            <li class=" first-level"><a href="/parents/">Родителям</a></li>
+                            <li class=" first-level"><a href="/pupils/">Учащимся</a></li>
+            </ul><ul class="nav col-md-6">                <li class=" first-level"><a href="/teachers/">Учителям</a></li>
+                            <li class=" first-level"><a href="/contacts/">Контакты</a></li>
+                            <li class=" first-level"><a href="/about/history.php">История школы</a></li>
+                            <li class=" first-level"><a href="/map.php">Карта сайта</a></li>
+                        </li>
+        </ul>
+    </div>
+</div>				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="col col-social-icons">
+					<h4>Следуйте за нами</h4>
+					
+
+
+
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="col">
+					<h4>Обратная связь</h4>
+					<p>Если у вас есть вопросы, задайте их через специальную форму 						<br><br>
+						<a class="btn btn-block btn-base" href="/contacts/" class="btn btn-two"><span>Написать нам</span></a>
+					</p>
+				</div>
+			</div>
+		</div>
+		<hr>
+		<div class="row bottom-row">
+			<div class="col-lg-5 copyright">
+				© 2016 МАОУ "ЛИТ"			</div>
+			<div id="bx-composite-banner" style="text-align: center;" class="col-lg-3 footer-logo"></div>
+			<div class="col-lg-4 developer">
+				<a target="_blank" class="pull-right" href="http://simai.ru/solutions/meditsinskie-organizatsii/sayt-meditsinskoy-organizatsii/">Работает на «SIMAI: Сайт школы</a>
+			</div>
+		</div>
+	</div>
+	</footer>  <script type="text/javascript">
+BX.bind(document, "keypress", SendError);
+
+function SendError(event, formElem)
+{
+        event = event || window.event;
+
+        if((event.ctrlKey) && ((event.keyCode == 0xA)||(event.keyCode == 0xD)))
+        {
+            var Dialog = new BX.CDialog({
+                                title: "На сайте обнаружена ошибка",
+                                head: "В чём заключается ошибка?",
+                                content: 	'<form method="POST" id="help_form">\
+                                            <textarea class="form-control" placeholder="Описание ошибки" rows="3" name="error_desc" style="height:  131px; width: 374px;"></textarea>\
+                                            <input type="hidden" name="error_message"value="'+getSelectedText()+'">\
+                                            <input type="hidden" name="error_url" value="'+window.location+'">\
+                                            <input type="hidden" name="error_referer" value="'+document.referrer+'">\
+                                            <input type="hidden" name="error_useragent" value="'+navigator.userAgent+'">\
+                                            <input type="hidden" name="sessid" value="'+BX.bitrix_sessid()+'"></form>',
+                                resizable: false,
+                                height: '198',
+                                width: '400'});
+
+            Dialog.SetButtons([
+            {
+                'title': 'Отправить',
+                'id': 'action_send',
+                'name': 'action_send',
+                'action': function(){
+                    BX.ajax.submit(BX("help_form"));
+                    this.parentWindow.Close();
+                }
+            },
+            {
+                'title': 'Отмена',
+                'id': 'cancel',
+                'name': 'cancel',
+                'action': function(){
+                    this.parentWindow.Close();
+                }
+            }
+            ]);
+            Dialog.Show();
+        }
+}
+function getSelectedText(){
+  if (window.getSelection){
+    txt = window.getSelection();
+  }
+  else if (document.getSelection) {
+    txt = document.getSelection();
+  }
+  else if (document.selection){
+    txt = document.selection.createRange().text;
+  }
+  else return;
+  return txt;
+}
+  </script>
+
+</div>
+
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5787594f43453750"></script>
+</body>
+</html>
